@@ -1,0 +1,88 @@
+{
+    "title": "Sergei Iu. | Junior Full Stack Developer",
+    "description": "Sergei Iu. - Portfolio, Junior Full Stack Developer",
+    "url": "https://sergeiu.netlifly.com/",
+    "author": "Sergei Iu.",
+    "profile_pic": "/assets/me.png",
+    "resume": "/assets/resume.pdf",
+    "nav": [
+      { "link": "#skills", "name": "Skills" },
+      { "link": "#projects", "name": "Projects" },
+      { "link": "#achievements", "name": "Achievements" },
+      { "link": "#footer", "name": "Contact" }
+    ],
+    "skills": {
+      "comfortable": [
+        { "name": "Django", "icon": "django"},
+        { "name": "Python", "icon": "python"},
+        { "name": "Bootstrap", "icon": "bootstrap"},
+        { "name": "HTML5", "icon": "html5" },
+        { "name": "Git", "icon": "git" },
+        { "name": "CSS3", "icon": "css3"},
+        { "name": "Flask", "icon": "flask" },
+        { "name": "PostgreSQL", "icon": "postgresql"}],
+      "familiar": [
+        { "name": "Android", "icon": "android"},
+        { "name": "Java", "icon": "java"},
+        { "name": "JavaScript", "icon": "javascript" },
+        { "name": "React", "icon": "react" },
+        { "name": "SqlAlchemy", "icon": "sqlalchemy" }
+        ] 
+    },
+    "projects": [
+      {
+        "title": "Ninjamir",
+        "description": "The project to conduct a team competition to account time spent on the main goal.",
+        "image": "/assets/ninjamir.png",
+        "techs": "Django | PostgreSQL | JavaScript | Bootstrap | CSS | HTML",
+        "link": "https://ninjamir.herokuapp.com"
+      },
+      {
+        "title": "Ninjamir",
+        "description": "The project to conduct a team competition to account time spent on the main goal.",
+        "image": "/assets/ninjamir.png",
+        "techs": "Flask | Google API | JavaScript | HTML",
+        "link": "https://msgusa.pythonanywhere.com/dashboard"  
+      }
+    ],
+    "achievements": [
+      {
+        "title": "Ready to work",
+        "description": "I have never worked yet in any IT company",
+        "image": "/assets/yaatree.jpg"
+      }
+    ],
+    "journey": {
+      "2030": [
+        {
+            "title": "Senior full stack remote developer ☁️",
+            "description": "It's my dream to be a senior full-stack developer who can work remotely."
+        }
+      ],
+      "2021": [
+          {
+              "title": "Got married 🍾",
+              "description": "We got married in the mountains of South Africa"
+          },
+          {
+              "title": "Blogged for a year non-stop",
+              "description": "Every single day one article!"
+          }
+      ]
+    },
+    "testimonials": [
+      {
+        "image": "/assets/nicole.jpg",
+        "name": "Nicole Bongers",
+        "title": "~ Wife",
+        "quote": "Chris is an amazing husband and dog father!"
+      }
+    ],
+    "socials": [
+      {
+        "link": "https://codepen.io/rebelchris",
+        "title": "Codepen",
+        "icon": "codepen"
+      }
+    ]
+  }

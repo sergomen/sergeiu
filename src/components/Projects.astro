@@ -1,0 +1,22 @@
+---
+import ProjectItem from './ProjectItem.astro';
+import site from "../data/site.json";
+const title = `Projects I’ve been working on`;
+const {projects} = site;
+---
+<section id="projects">
+    <h3>{title}</h3>
+    <!-- <div class="project-grid"> -->
+        {projects.map((item) => (
+            <ProjectItem item={item} />
+        ))}
+    <!-- </div> -->
+</section>
+<!-- <style lang="scss">
+    .project-grid {
+        display: grid;
+        @media (min-width: 450px) {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+</style> -->

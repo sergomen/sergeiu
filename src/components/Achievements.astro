@@ -1,0 +1,22 @@
+---
+import AchievementItem from './AchievementItem.astro';
+import site from "../data/site.json";
+const title = `Achievements I’m proud of`;
+const {achievements} = site;
+---
+<section id="achievements">
+    <h3>{title}</h3>
+    <div class="portfolio-grid">
+        {achievements.map((item) => (
+            <AchievementItem item={item} />
+        ))}
+    </div>
+</section>
+<style lang="scss">
+.portfolio-grid {
+    display: grid;
+    @media (min-width: 450px) {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+</style>

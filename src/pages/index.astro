@@ -1,0 +1,40 @@
+---
+// Component Imports
+import MainHead from '../components/MainHead.astro';
+import Header from '../components/Header.astro';
+import Intro from '../components/Intro.astro';
+import Skills from '../components/Skills.astro';
+import Projects from '../components/Projects.astro';
+// import Work from '../components/Work.astro';
+// import Journey from '../components/Journey.astro';
+// import Testimonials from '../components/Testimonials.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<style lang="scss">
+main {
+  padding-top: 150px;
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+</style>
+
+<html lang="en">
+	<head>
+		<MainHead />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<Intro />
+			<Skills />
+			<Projects />
+			<!-- <Work /> -->
+			<!--<Journey />
+			<Testimonials />-->
+			<Footer />
+		</main>
+		
+	</body>
+</html>
