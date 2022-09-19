@@ -8,7 +8,7 @@
     "nav": [
       { "link": "#skills", "name": "Skills" },
       { "link": "#projects", "name": "Projects" },
-      { "link": "#achievements", "name": "Achievements" },
+      { "link": "#experience", "name": "Experience" },
       { "link": "#footer", "name": "Contact" }
     ],
     "skills": {
@@ -32,17 +32,27 @@
     "projects": [
       {
         "title": "Ninjamir",
-        "description": "The project to conduct a team competition to account time spent on the main goal.",
+        "description": "Ninjamir allows you to track cases and time to achieve your goal. There is also an opportunity to participate in the monthly team events, competing with other people.",
         "image": "/assets/ninjamir.png",
         "techs": "Django | PostgreSQL | JavaScript | Bootstrap | CSS | HTML",
-        "link": "https://ninjamir.herokuapp.com"
+        "link": "https://ninjamir.herokuapp.com",
+        "github": ""
       },
       {
-        "title": "Ninjamir",
-        "description": "The project to conduct a team competition to account time spent on the main goal.",
-        "image": "/assets/ninjamir.png",
+        "title": "Spectro-Helper",
+        "description": "This project is dedicated to the famous collectible card game 'Spectromancer'. The application reads information from the screen and allows the player to better plan the strategy without holding enemy cards in his head.",
+        "image": "/assets/spectro-helper.png",
+        "techs": "Python | OpenCV | PyTesseract | PySimpleGUI | Pandas",
+        "link": "",
+        "github": "https://github.com/sergomen/spectro-helper"
+      },
+      {
+        "title": "Tico",
+        "description": "Tico is a tutorial project for creating web applications using Google tables. The data from the table is downloaded, processed and graphed every month, showing the time spent by each user on achieving the goal.",
+        "image": "/assets/tico.png",
         "techs": "Flask | Google API | JavaScript | HTML",
-        "link": "https://msgusa.pythonanywhere.com/dashboard"  
+        "link": "https://msgusa.pythonanywhere.com/dashboard",
+        "github": "https://github.com/sergomen/tico"
       }
     ],
     "achievements": [
@@ -52,37 +62,55 @@
         "image": "/assets/yaatree.jpg"
       }
     ],
-    "journey": {
-      "2030": [
+    "experience": {
+      "2023": [
         {
-            "title": "Senior full stack remote developer ☁️",
-            "description": "It's my dream to be a senior full-stack developer who can work remotely."
+            "title": "Officially I am a web developer",
+            "description": "Find a job as a web developer"
         }
       ],
-      "2021": [
-          {
-              "title": "Got married 🍾",
-              "description": "We got married in the mountains of South Africa"
-          },
-          {
-              "title": "Blogged for a year non-stop",
-              "description": "Every single day one article!"
-          }
+      "2022": [
+        {
+          "title": "7 September 2022 - Meet Astro",
+          "description": "Thanks to Dennis Ivanov, learned about the Astro framework and created a portfolio on it (this site) for the first time."
+        },
+        {
+          "title": "1 June 2022 - Ninjamir appeared!",
+          "description": "For a long time I counted `Naruto` for children, but after watching decided to dedicate a whole project to it. :)"
+        },
+        {
+          "title": "21 April 2022 - The dream of youth came true",
+          "description": "I have created the first web app `Tico`."
+        },
+        {
+          "title": "1 March 2022 - Journey began",
+          "description": "Starting learning Python."
+        }
       ]
     },
     "testimonials": [
       {
-        "image": "/assets/nicole.jpg",
-        "name": "Nicole Bongers",
-        "title": "~ Wife",
-        "quote": "Chris is an amazing husband and dog father!"
+        "image": "/assets/.jpg",
+        "name": "",
+        "title": "",
+        "quote": "Chris is amazing!"
       }
     ],
     "socials": [
       {
-        "link": "https://codepen.io/rebelchris",
-        "title": "Codepen",
-        "icon": "codepen"
+        "link": "https://github.com/sergomen",
+        "title": "Github",
+        "icon": "github"
+      },
+      {
+        "link": "https://www.linkedin.com/in/sergei-iu/",
+        "title": "Linkedin",
+        "icon": "linkedin"
+      },
+      {
+        "link": "mailto:msgusagoose@gmail.com",
+        "title": "Gmail",
+        "icon": "google"
       }
     ]
   }

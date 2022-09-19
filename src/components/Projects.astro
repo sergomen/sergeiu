@@ -6,17 +6,21 @@ const {projects} = site;
 ---
 <section id="projects">
     <h3>{title}</h3>
-    <!-- <div class="project-grid"> -->
+    <!-- <div class="projects"> -->
         {projects.map((item) => (
             <ProjectItem item={item} />
         ))}
     <!-- </div> -->
 </section>
-<!-- <style lang="scss">
-    .project-grid {
-        display: grid;
-        @media (min-width: 450px) {
-            grid-template-columns: 1fr 1fr;
-        }
+<style lang="scss">
+    .projects {
+        // display: grid;
+        // @media (min-width: 450px) {
+        //     grid-template-columns: 1fr 1fr;
+        // }
+        // display: grid;
+        // grid-template-columns: repeat(5, 1fr);
+        margin: 1rem 0;
+        
     }
-</style> -->
+</style>

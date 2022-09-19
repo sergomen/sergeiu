@@ -6,8 +6,8 @@ const {socials, author, profile_pic, resume} = site;
 <footer id="footer">
     <div class="footer-left">
         <h2>{title}</h2>
-        <p>I love to have a chat about projects, opportunities,<br />
-        and to help people out!<br />
+        <p>My inbox is always open. <br />
+         Feel free to mail me about any relevant job updates, questions, critic.<br />
         <i>You can download <a class="link" href={resume} target="_blank">my resume</a> here</i></p>
         <div class="socials">
             {socials.map((social) => (
@@ -21,9 +21,17 @@ const {socials, author, profile_pic, resume} = site;
         </div>
     </div>
     <div class="footer-right">
-        <img width="200" height="200" src={profile_pic} alt={author} />
-    </div>
+        <img width="200" height="auto" src={profile_pic} alt={author} />
+    </div> 
 </footer>
+<div class="copyright">
+    September, 2022 
+    <p>Revised by Sergei Iu</p>
+    <p>Designed & built by <a href="https://daily-dev-tips.com/posts/recreating-my-portfolio-website-in-astro/" target="_blank" rel="nofollow noopener noreferrer"><span>Chris Bongers.</span></a>
+    Inspired by <a href="https://chandrikadeb7.github.io/" target="_blank" rel="nofollow noopener noreferrer"><span>Chandrika Deb.</span></a></p>
+    <p></p>
+</div>
+
 <style lang="scss">
 footer {
     display: flex;
@@ -35,11 +43,17 @@ footer {
     }
     .footer-right {
         padding: 10px;
-        background: rgb(73, 79, 97);
+        background: rgb(137, 143, 163);
         margin: 5px;
         margin-left: 3rem;
         max-width: 200px;
-        
+        border-style: solid;
+        border-color: #115de9;
+        padding-bottom: 0;
+    }
+    .footer-bottom {
+        // display: flex;
+        // flex-direction: row;
     }
     .social-icon {
         background: #fff;
@@ -59,5 +73,23 @@ footer {
             }
         }
     }
+}
+
+.copyright {
+    margin: auto;
+    width: 50%;
+    // border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+
+span {
+    color: rgb(27, 24, 168);
+    font-size: 14px;
+    text-decoration: none;
+    text-decoration-skip-ink: auto;
+}
+p {
+    margin: 0;
 }
 </style>

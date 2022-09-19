@@ -1,14 +1,14 @@
 ---
 import site from "../data/site.json";
-const title = `A hitchhiker's guide to Chris's life`;
-const {journey} = site;
+const title = `My experience`;
+const {experience} = site;
 ---
-<section id="work">
+<section id="experience">
     <h2>{title}</h2>
-    {Object.keys(journey).reverse().map((year, i) => (
+    {Object.keys(experience).reverse().map((year, i) => (
         <div class="timeline">
             <strong class="title">{year}</strong>
-            {journey[year].map(item => (
+            {experience[year].map(item => (
                 <div class="timeline-item">
                     <div class="timeline-item--checkbox">
                         <svg viewBox="0 0 24 24">
