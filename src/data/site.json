@@ -88,6 +88,18 @@
         }
       ]
     },
+    "pets": [
+        {
+            "title": "Rada's Headache",
+            "description": "Dogs have hard days too",
+            "image": "/assets/rada_headache.jpg"
+        },
+        {
+          "title": "Rada and Winter",
+          "description": "Our dog likes snow - it is soft, wet and flutters. And we love winter - the legs of the dog do not stain the floor",
+          "image": "/assets/rada_snow.jpg"
+        } 
+     ],
     "testimonials": [
       {
         "image": "/assets/.jpg",
