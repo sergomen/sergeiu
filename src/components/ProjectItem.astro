@@ -9,23 +9,23 @@ const { item } = Astro.props;
         </div>
         <div class="project-item-technologies">
             <div class="external">
-                <a style={item.link? ' ':'display:none'} href={item.link} target="blank">
+                <a style={item.link? ' ':'display:none'} href={item.link} target="_blank">
                     <img src="assets/external_link_100.svg" />
                 </a>
-                <a style={item.github? ' ':'display:none'} href={item.github} target="blank">
+                <a style={item.github? ' ':'display:none'} href={item.github} target="_blank">
                     <img src="assets/github_100.png" />
                 </a>
             </div>
         </div>
     </div>
     <div class="project-item-image">
-        {item.techs}
+        {item.techs}<br><br>
         <img src={item.image}>
     </div>
 </div>
 <style lang="scss">
 .project-item-grid {
-    background: rgb(137, 143, 163);
+    background: rgb(227, 236, 238);
     display: grid;
     row-gap: 10px;
     column-gap: 10px;
